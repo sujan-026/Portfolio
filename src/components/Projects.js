@@ -74,28 +74,28 @@ const projects = [
     id: 1,
     title: 'Country Capital Quiz',
     description: 'An app to test your geographical knowledge.',
-    imageUrl: '/images/project1.png',
+    imageUrl: '/project1.png',
     link: "https://world-country-quiz.onrender.com/"
   },
   {
     id: 2,
     title: 'Mondrian Online Art Gallery',
     description: 'An online gallery showcasing Mondrian art.',
-    imageUrl: '/images/project2.png',
+    imageUrl: '/project2.png',
     link: "https://sujan-026.github.io/Mondrian-art/"
   },
   {
     id: 3,
     title: 'Drum Kit',
     description: 'An online drum kit simulator.',
-    imageUrl: '/images/project3.png',
+    imageUrl: '/project3.png',
     link: "https://sujan-026.github.io/drums/"
   },
   {
     id: 4,
     title: 'Earth-Moon Simulation',
     description: 'A simple simulator of the earth and its moon',
-    imageUrl: '/images/project4.png',
+    imageUrl: '/project4.png',
     link: "https://earth-moon-model.vercel.app/"
   },
 ];

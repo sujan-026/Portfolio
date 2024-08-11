@@ -40,21 +40,6 @@ const SocialLink = styled.a`
   }
 `;
 
-const ResumeLink = styled.a`
-  display: inline-block;
-  background-color: #007bff;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-  margin-bottom: 1rem;
-
-  &:hover {
-    background-color: #0056b3;
-  }
-`;
-
 const Home = () => {
   const titleProps = useSpring({
     from: { opacity: 0, transform: 'translateY(-50px)' },
