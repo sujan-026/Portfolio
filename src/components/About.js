@@ -37,16 +37,18 @@ const SkillItem = styled.li`
 `;
 
 function About() {
-  const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Python', 'Git'];
+  const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Express.js', 'Python', 'Git', 'GitHub', 'MYSQL', 'PostgresSql', 'C/C++', 'Blender', 'Unity',];
 
   return (
     <AboutContainer id="about">
       <Content>
         <Title>About Me</Title>
         <p>
-          I'm a passionate web developer with a keen interest in creating intuitive and efficient web applications. 
-          With a strong foundation in both front-end and back-end technologies, I strive to deliver high-quality, 
-          scalable solutions that meet and exceed client expectations.
+          Hello! I’m Sujan P, a passionate Computer Science student at Dr. Ambedkar Institute Of Technology, currently in my second year. I have a keen interest in full-stack development and am always eager to learn new technologies and enhance my skills. <br></br>
+          <br></br>
+          With experience in creating dynamic web applications using the MERN stack, I enjoy turning ideas into functional and user-friendly projects. I’ve also explored various domains, including AI/ML, and am working on exciting projects, like building a custom flight computer for a rocket and developing a simulation game based on stock trading. <br></br>
+          <br></br>
+          In addition to my technical pursuits, I enjoy collaborating with my peers on innovative solutions and participating in hackathons to challenge myself and expand my knowledge. When I’m not coding, you’ll find me diving into the latest anime, playing video games, or keeping up with cricket.
         </p>
         <p>
           My skills include:
