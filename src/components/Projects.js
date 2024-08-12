@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { useSpring, animated } from 'react-spring';
 
 const ProjectsContainer = styled.section`
-  min-height: 60vh;
+  min-height: 90vh;
   padding: 80px 2rem 2rem;
   background-color: #f0f4f8;
 `;
@@ -13,6 +13,7 @@ const Title = styled.h2`
   margin-bottom: 2rem;
   text-align: center;
   color: #2c3e50;
+  margin-top: 100px;
 `;
 
 const ProjectGrid = styled.div`
@@ -74,28 +75,28 @@ const projects = [
     id: 1,
     title: 'Country Capital Quiz',
     description: 'An app to test your geographical knowledge.',
-    imageUrl: '/project1.png',
+    // imageUrl: 'images/project1.png',
     link: "https://world-country-quiz.onrender.com/"
   },
   {
     id: 2,
     title: 'Mondrian Online Art Gallery',
     description: 'An online gallery showcasing Mondrian art.',
-    imageUrl: '/project2.png',
+    // imageUrl: '/images/project2.png',
     link: "https://sujan-026.github.io/Mondrian-art/"
   },
   {
     id: 3,
     title: 'Drum Kit',
     description: 'An online drum kit simulator.',
-    imageUrl: '/project3.png',
+    // imageUrl: '/images/project3.png',
     link: "https://sujan-026.github.io/drums/"
   },
   {
     id: 4,
     title: 'Earth-Moon Simulation',
     description: 'A simple simulator of the earth and its moon',
-    imageUrl: '/project4.png',
+    imageUrl: '/images/project4.png',
     link: "https://earth-moon-model.vercel.app/"
   },
 ];
@@ -113,7 +114,6 @@ const Projects = () => {
       <ProjectGrid>
         {projects.map((project) => (
           <ProjectCard key={project.id} style={fadeIn}>
-            <ProjectImage src={project.imageUrl} alt={project.title} />
             <ProjectContent>
               <ProjectTitle>{project.title}</ProjectTitle>
               <ProjectDescription>{project.description}</ProjectDescription>

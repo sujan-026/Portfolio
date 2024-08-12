@@ -1,5 +1,4 @@
 // src/App.js
-// "homepage": "https://<your-github-username>.github.io/portfolio", 
 import React, { useState } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import styled from 'styled-components';
