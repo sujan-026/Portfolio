@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { useSpring, animated } from 'react-spring';
-import resumePDF from './Sujan_P.pdf'; 
+import resumePDF from './SujanP.pdf'; 
 
 const HomeContainer = styled.section`
   height: 100vh;
@@ -58,7 +58,7 @@ const Home = () => {
     <HomeContainer id="home">
       <Title style={titleProps}>Welcome to My Portfolio</Title>
       <Subtitle style={subtitleProps}>I'm a passionate web developer creating amazing experiences</Subtitle>
-      <DownloadButton href={resumePDF} download="Sujan P.pdf">
+      <DownloadButton href={resumePDF} download="SujanP.pdf">
         Download Resume
       </DownloadButton>
     </HomeContainer>
