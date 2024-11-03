@@ -35,12 +35,6 @@ const ProjectCard = styled(animated.div)`
   }
 `;
 
-const ProjectImage = styled.img`
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-`;
-
 const ProjectContent = styled.div`
   padding: 1.5rem;
 `;
@@ -73,31 +67,45 @@ const ProjectLink = styled.a`
 const projects = [
   {
     id: 1,
-    title: 'Country Capital Quiz',
-    description: 'An app to test your geographical knowledge.',
+    title: "Country Capital Quiz",
+    description: "An app to test your geographical knowledge.",
     // imageUrl: 'images/project1.png',
-    link: "https://world-country-quiz.onrender.com/"
+    link: "https://world-country-quiz.onrender.com/",
   },
   {
     id: 2,
-    title: 'Mondrian Online Art Gallery',
-    description: 'An online gallery showcasing Mondrian art.',
+    title: "Mondrian Online Art Gallery",
+    description: "An online gallery showcasing Mondrian art.",
     // imageUrl: '/images/project2.png',
-    link: "https://sujan-026.github.io/Mondrian-art/"
+    link: "https://sujan-026.github.io/Mondrian-art/",
   },
   {
     id: 3,
-    title: 'Drum Kit',
-    description: 'An online drum kit simulator.',
+    title: "Drum Kit",
+    description: "An online drum kit simulator.",
     // imageUrl: '/images/project3.png',
-    link: "https://sujan-026.github.io/drums/"
+    link: "https://sujan-026.github.io/drums/",
   },
   {
     id: 4,
-    title: 'Earth-Moon Simulation',
-    description: 'A simple simulator of the earth and its moon',
-    imageUrl: '/images/project4.png',
-    link: "https://earth-moon-model.vercel.app/"
+    title: "Earth-Moon Simulation",
+    description: "A simple simulator of the earth and its moon",
+    //  imageUrl: "/images/project4.png",
+    link: "https://earth-moon-model.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Sphere Sprint",
+    description: "2D platformer made in Unity",
+    // imageUrl: "/images/project4.png",
+    link: "https://fury-026.itch.io/sphere-sprinter",
+  },
+  {
+    id: 6,
+    title: "Flappy Bird",
+    description: "The iconic Flappy Bird game",
+    // imageUrl: "/images/project4.png",
+    link: "https://fury-026.itch.io/flappybird",
   },
 ];
 
