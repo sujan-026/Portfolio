@@ -96,7 +96,7 @@ const projects = [
   {
     id: 5,
     title: "Pokemon Cards",
-    description: "A simple website to browse through all types pokemons",
+    description: "A simple website to browse through all types of pokemons",
     //  imageUrl: "/images/project4.png",
     link: "https://pokemon-sigma-weld.vercel.app/",
   },
