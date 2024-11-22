@@ -95,13 +95,20 @@ const projects = [
   },
   {
     id: 5,
+    title: "Pokemon Cards",
+    description: "A simple website to browse through all types pokemons",
+    //  imageUrl: "/images/project4.png",
+    link: "https://pokemon-sigma-weld.vercel.app/",
+  },
+  {
+    id: 6,
     title: "Sphere Sprint",
     description: "2D platformer made in Unity",
     // imageUrl: "/images/project4.png",
     link: "https://fury-026.itch.io/sphere-sprinter",
   },
   {
-    id: 6,
+    id: 7,
     title: "Flappy Bird",
     description: "The iconic Flappy Bird game",
     // imageUrl: "/images/project4.png",
